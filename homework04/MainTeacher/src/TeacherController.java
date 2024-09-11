@@ -1,5 +1,3 @@
-package homework04.MainTeacher.src;
-
 import java.util.List;
 
 public class TeacherController implements UserController<Teacher> {
@@ -14,6 +12,10 @@ public class TeacherController implements UserController<Teacher> {
 
     public void editTeacher(Integer teacherId, String surname, String firstname, String patronymic) {
         teacherService.editTeacher(teacherId, surname, firstname, patronymic);
+    }
+
+    public void deleteTeacher(Integer teacherId) {
+        teacherService.deleteTeacher(teacherId);
     }
 
     public void initTeacherList(List<Teacher> list) {

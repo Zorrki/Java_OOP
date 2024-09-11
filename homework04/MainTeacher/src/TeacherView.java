@@ -1,4 +1,3 @@
-package homework04.MainTeacher.src;
 import java.util.List;
 
 public class TeacherView implements UserView<Teacher>{

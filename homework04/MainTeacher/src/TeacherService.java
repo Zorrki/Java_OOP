@@ -1,10 +1,10 @@
-package homework04.MainTeacher.src;
 import java.util.List;
+import java.util.Iterator;
 
-public class TeacherService implements UserService<Teacher>{
-
+public class TeacherService implements UserService<Teacher> {
     private List<Teacher> teacherList;
     private Integer maxTeacherId = 0;
+
     @Override
     public List<Teacher> getAll() {
         return teacherList;
@@ -18,22 +18,35 @@ public class TeacherService implements UserService<Teacher>{
 
     @Override
     public void create(String surname, String firstname, String patronymic) {
-        Teacher teacher = new Teacher(++maxTeacherId,surname,firstname,patronymic);
+        Teacher teacher = new Teacher(++maxTeacherId, surname, firstname, patronymic);
         teacherList.add(teacher);
     }
-    public void editTeacher(Integer teacherId, String surname,String firstname, String patronymic){
-        for (Teacher teacher: teacherList) {
-            if (teacher.getTeacherId().equals(teacherId)){
+
+    public void editTeacher(Integer teacherId, String surname, String firstname, String patronymic) {
+        for (Teacher teacher : teacherList) {
+            if (teacher.getTeacherId().equals(teacherId)) {
                 teacher.setSurname(surname);
                 teacher.setFirstname(firstname);
                 teacher.setPatronymic(patronymic);
             }
         }
     }
-    private Integer getNewMaxTeacherId(){
+
+    public void deleteTeacher(Integer teacherId) {
+        Iterator<Teacher> iterator = teacherList.iterator();
+        while (iterator.hasNext()) {
+            Teacher teacher = iterator.next();
+            if (teacher.getTeacherId().equals(teacherId)) {
+                iterator.remove();
+                break;
+            }
+        }
+    }
+
+    private Integer getNewMaxTeacherId() {
         Integer result = teacherList.get(0).getTeacherId();
-        for (Teacher teacher: teacherList) {
-            if (result < teacher.getTeacherId()){
+        for (Teacher teacher : teacherList) {
+            if (result < teacher.getTeacherId()) {
                 result = teacher.getTeacherId();
             }
         }

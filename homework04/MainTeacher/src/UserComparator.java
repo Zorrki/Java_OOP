@@ -1,4 +1,3 @@
-package homework04.MainTeacher.src;
 import java.util.Comparator;
 
 public class UserComparator<T extends User> implements Comparator<T>{
