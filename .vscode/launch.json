@@ -1,0 +1,301 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "MainMarket",
+            "request": "launch",
+            "mainClass": "MainMarket",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "MainTeacher",
+            "request": "launch",
+            "mainClass": "MainTeacher.src.MainTeacher",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "MainVending",
+            "request": "launch",
+            "mainClass": "MainVending",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "StudentManagementApp",
+            "request": "launch",
+            "mainClass": "StudentManagementApp",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "MainTeacher(1)",
+            "request": "launch",
+            "mainClass": "homework04.MainTeacher.src.MainTeacher",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "PointMethod",
+            "request": "launch",
+            "mainClass": "lection01.Ex001.PointMethod",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program",
+            "request": "launch",
+            "mainClass": "lection01.Ex002.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(1)",
+            "request": "launch",
+            "mainClass": "lection01.Ex003.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(2)",
+            "request": "launch",
+            "mainClass": "lection01.Ex004.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(3)",
+            "request": "launch",
+            "mainClass": "lection01.Ex005.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(4)",
+            "request": "launch",
+            "mainClass": "lection01.Ex006.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Teams",
+            "request": "launch",
+            "mainClass": "lection01.Ex006.Teams",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(5)",
+            "request": "launch",
+            "mainClass": "lection01.Ex007.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(6)",
+            "request": "launch",
+            "mainClass": "lection02.Ex001.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(7)",
+            "request": "launch",
+            "mainClass": "lection02.Ex002.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(8)",
+            "request": "launch",
+            "mainClass": "lection02.Ex003.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(9)",
+            "request": "launch",
+            "mainClass": "lection02.Ex004.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(10)",
+            "request": "launch",
+            "mainClass": "lection02.Ex005.v1.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(11)",
+            "request": "launch",
+            "mainClass": "lection02.Ex005.v2.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(12)",
+            "request": "launch",
+            "mainClass": "lection02.Ex006.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(13)",
+            "request": "launch",
+            "mainClass": "lection03.Ex001.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(14)",
+            "request": "launch",
+            "mainClass": "lection03.Ex002.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(15)",
+            "request": "launch",
+            "mainClass": "lection03.Ex004.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(16)",
+            "request": "launch",
+            "mainClass": "lection03.Ex005.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(17)",
+            "request": "launch",
+            "mainClass": "lection03.Ex006.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(18)",
+            "request": "launch",
+            "mainClass": "lection03.Ex007.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(19)",
+            "request": "launch",
+            "mainClass": "lection04.Lesson_10.Ex001.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(20)",
+            "request": "launch",
+            "mainClass": "lection04.Lesson_10.Ex002.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(21)",
+            "request": "launch",
+            "mainClass": "lection04.Lesson_10.Ex003.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(22)",
+            "request": "launch",
+            "mainClass": "lection04.Lesson_10.Ex004.V1.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(23)",
+            "request": "launch",
+            "mainClass": "lection04.Lesson_10.Ex004.V2.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(24)",
+            "request": "launch",
+            "mainClass": "lection04.Lesson_10.Ex004.V3.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Program(25)",
+            "request": "launch",
+            "mainClass": "lection04.Lesson_10.Ex004.V4.Program",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Ex001_Pair",
+            "request": "launch",
+            "mainClass": "lection04.Lesson_10.Ex005.Ex001_Pair",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Ex002_MultiPair",
+            "request": "launch",
+            "mainClass": "lection04.Lesson_10.Ex005.Ex002_MultiPair",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Ex003_GenericMethod",
+            "request": "launch",
+            "mainClass": "lection04.Lesson_10.Ex005.Ex003_GenericMethod",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Ex004_GenericTest",
+            "request": "launch",
+            "mainClass": "lection04.Lesson_10.Ex005.Ex004_GenericTest",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Ex001_Game",
+            "request": "launch",
+            "mainClass": "lection04.Lesson_10.Ex006.Ex001_Game",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Ex002_Game",
+            "request": "launch",
+            "mainClass": "lection04.Lesson_10.Ex007.Ex002_Game",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Ex003_Game",
+            "request": "launch",
+            "mainClass": "lection04.Lesson_10.Ex008.Ex003_Game",
+            "projectName": "Java_OOP_efb9d1ca"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "ru.gb.oseminar.Main",
+            "projectName": "OSeminar_2"
+        }
+    ]
+}
