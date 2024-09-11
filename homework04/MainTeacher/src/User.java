@@ -1,5 +1,3 @@
-package homework04.MainTeacher.src;
-
 public class User{
 	private String surname;
     private String firstname;
