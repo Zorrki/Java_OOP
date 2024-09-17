@@ -1,3 +1,5 @@
+import model.User;
+
 public class Teacher extends User {
     private Integer teacherId;
 

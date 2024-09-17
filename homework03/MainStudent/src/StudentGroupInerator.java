@@ -1,6 +1,8 @@
 import java.util.Iterator;
 import java.util.List;
 
+import model.StudentGroup;
+
 public class StudentGroupInerator implements Iterator<Student> {
 
     private List<Student> studentsGroup;

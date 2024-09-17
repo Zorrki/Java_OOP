@@ -1,4 +1,7 @@
 import java.util.List;
+
+import model.Teacher;
+
 import java.util.Iterator;
 
 public class TeacherService implements UserService<Teacher> {
