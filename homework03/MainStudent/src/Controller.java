@@ -1,3 +1,5 @@
+import service.StudentGroupService;
+
 public class Controller {
     private StudentGroupService studentGroupService;
     private StreamService streamService;

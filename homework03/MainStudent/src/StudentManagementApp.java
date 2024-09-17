@@ -1,6 +1,10 @@
 import java.util.ArrayList;
 import java.util.List;
 
+import controller.Controller;
+import model.StudentGroup;
+import service.StudentGroupService;
+
 public class StudentManagementApp {
     public static void main(String[] args) {
         // Создаем список студентов

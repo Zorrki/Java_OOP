@@ -1,5 +1,7 @@
 import java.util.Comparator;
 
+import model.User;
+
 public class UserComparator<T extends User> implements Comparator<T>{
 
     @Override

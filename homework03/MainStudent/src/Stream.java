@@ -2,6 +2,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import model.StudentGroup;
+
 public class Stream implements Iterable<StudentGroup> {
     private List<StudentGroup> listStudentGroup;
 
